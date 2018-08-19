@@ -7,7 +7,7 @@
 	
     <?php echo form_open("auth/create_user");?>
       <p>First Name:<br />
-      <?php echo form_input($first_name);?>
+      <?php echo form_input($first_name);?>// there has been echo but how to be connect from controller ? please write down a comment
       </p>
       
       <p>Last Name:<br />
